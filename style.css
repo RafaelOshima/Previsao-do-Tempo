@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("https://source.unsplash.com/1920x1080/?landscape");
+}
+
+section {
+  background-color: black;
+  opacity: 0.8;
+  border-radius: 25px;
+  padding: 30px;
+  width: 95%;
+  max-width: 450px;
+}
+
+.search {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: calc(100% - 60px);
+}
+
+.button-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #7c7c7c2b;
+  cursor: pointer;
+  float: right;
+}
+
+.icon-search {
+  width: 20px;
+}
+
+.caixa-media {
+  margin-top: 30px;
+}
+
+.city {
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+}
+
+.temp {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+}
+
+.situation {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.icon-cloud {
+  width: 50px;
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.umidade {
+  color: white;
+  margin-top: 20px;
+}
